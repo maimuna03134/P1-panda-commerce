@@ -1,0 +1,51 @@
+/* common css */
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+/* custom css */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.search-parent {
+    position: relative;
+    color: #bababa;
+}
+
+.search-parent input {
+    background-color: #f1f1f1;
+    padding: 15px 30px;
+    width: 500px;
+    border-radius: 66px;
+    border: none;
+}
+.search-parent ::placeholder{
+    font-size: 20px;
+}
+.search-parent i {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    font-size: 20px;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.nav-items li a{
+    text-decoration: none;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 600;
+}
